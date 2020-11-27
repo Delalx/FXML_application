@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<GridPane alignment="center" hgap="10" prefHeight="469.0" prefWidth="493.0"
+          style="-fx-background-color: darkcyan;" vgap="10"
+          xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="sample.Controller">
+    <columnConstraints/>
+    <rowConstraints/>
+    <VBox prefHeight="487.0" prefWidth="505.0">
+        <Text text="Welcome!!" style="-fx-fill: white" >
+            <font>
+                <Font size="24"/>
+            </font>
+            <VBox.margin>
+                <Insets left="210.0" right="200.0" top="25.0"/>
+            </VBox.margin>
+        </Text>
+        <HBox alignment="TOP_CENTER" prefHeight="54.0" prefWidth="493.0">
+            <Button text="Hej!" onAction="#hej" >
+                <HBox.margin>
+                    <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
+                </HBox.margin>
+            </Button>
+            <Button text="Nu?" onAction="#nu" >
+                <HBox.margin>
+                    <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
+                </HBox.margin>
+            </Button>
+            <Button text="Terning!" onAction="#terning" >
+                <HBox.margin>
+                    <Insets bottom="25.0" left="25.0" right="25.0" top="25.0"/>
+                </HBox.margin>
+            </Button>
+        </HBox>
+        <TextArea fx:id="textArea" prefHeight="250" prefWidth="493.0"/>
+    </VBox>
+</GridPane>
