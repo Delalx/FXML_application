@@ -8,9 +8,8 @@ import java.util.Date;
 
 public class Controller {
 
-    @FXML // fx:id="textArea1"
+    @FXML
     TextArea textArea; // Value injected by FXMLLoader
-
 
     @FXML
     void hej() {

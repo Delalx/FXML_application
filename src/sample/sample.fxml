@@ -10,13 +10,13 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.Font?>
 <GridPane alignment="center" hgap="10" prefHeight="469.0" prefWidth="493.0"
-          style="-fx-background-color: darkcyan;" vgap="10"
+          style="-fx-background-color: lavender;" vgap="10"
           xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
           fx:controller="sample.Controller">
     <columnConstraints/>
     <rowConstraints/>
     <VBox prefHeight="487.0" prefWidth="505.0">
-        <Text text="Welcome!!" style="-fx-fill: white" >
+        <Text text="Welcome!!" style="-fx-fill: black" >
             <font>
                 <Font size="24"/>
             </font>
